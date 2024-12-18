@@ -1,0 +1,92 @@
+.petal{
+    width: 100px;
+    height: 100px;
+    background: mediumaquamarine;
+    border-radius: 0px 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform-origin: bottom right;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.segon{
+    
+    background: green;
+    transform: rotate(60deg);
+}
+
+.tercer{
+    background: violet;
+    transform: rotate(120deg);
+    
+}
+
+.quart{
+    background: pink;
+    transform: rotate(180deg);
+    
+}
+
+.cinque{
+    background: yellowgreen;
+    transform: rotate(240deg);
+    
+
+}
+
+.sise{
+    background: yellow;
+    transform: rotate(300deg);
+    
+
+}
+
+.flor{
+    background: transparent;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    
+    
+
+    
+}
+
+.flor:hover{
+    animation: girasol 5s infinite linear;
+}
+
+.flor:first-child{
+    top: 300px;
+    left: 200px;
+}
+
+.flor:last-child{
+    top: 300px;
+    left: 600px;
+}
+
+.cor{
+    width: 50px;
+    height: 50px;
+    background: orange;
+    border-radius: 50px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.45);
+    
+}
+
+@keyframes girasol {
+
+    0%{
+        transform: rotate(0deg)
+    }
+
+    100%{
+        transform: rotate(360deg)
+    }
+
+}
